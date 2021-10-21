@@ -13,8 +13,8 @@ You can create a network only after you understand the shape of the input and ou
 weight = 0.1
 
 def neural_network(input, weight):
-		prediction = input * weight
-		return prediction
+	prediction = input * weight
+	return prediction
 
 number_of_toes = [8.5, 9.5, 10, 9]
 input = number_of_toes[0]
@@ -48,15 +48,15 @@ NN with multiple inputs at a time, combine various forms in information to make 
 weights = [0.1, 0.2, 0]
 
 def neural_network(input, weights):
-		pred = w_sum(input,weights)
-		return pred
+	pred = w_sum(input,weights)
+	return pred
 
 def w_sum(a,b):
-		assert(len(a) == len(b))
-		output = 0
-		for i in range(len(a)):
-				output += (a[i] * b[I])
-		return output
+	assert(len(a) == len(b))
+	output = 0
+	for i in range(len(a)):
+		output += (a[i] * b[I])
+	return output
 
 toes = [8.5, 9.5, 9.9, 9.0]
 wlrec = [0.65, 0.8, 0.8, 0.9]
@@ -105,8 +105,8 @@ import numpy as np
 weights = np.array([0.1, 0.2, 0])
 
 def neural_network(input, weights):
-		pred = input.dot(weights)
-		return pred
+	pred = input.dot(weights)
+	return pred
 
 toes = np.array([8.5, 9.5, 9.9, 9.0])
 wlrec = np.array([0.65, 0.8, 0.8, 0.9])
@@ -121,15 +121,15 @@ print(pred)
 
 ```python
 def ele_mul(number,vector):
-		output = [0,0,0]
-		assert(len(output) == len(vector))
-		for i in range(len(vector)):
-				output[i] = number * vector[i]
-		return output
+	output = [0,0,0]
+	assert(len(output) == len(vector))
+	for i in range(len(vector)):
+		output[i] = number * vector[i]
+	return output
 
 def neural_network(input, weights):
-		pred = ele_mul(input,weights)
-		return pred
+	pred = ele_mul(input,weights)
+	return pred
 
 wlrec = [0.65, 0.8, 0.8, 0.9]
 input = wlrec[0]
@@ -144,24 +144,24 @@ A weight connects each input node to each output node.
 
 ```python
 def w_sum(a,b):
-		assert(len(a) == len(b))
-		output = 0
-		for i in range(len(a)):
-				output += (a[i] * b[I])
-		return output
+	assert(len(a) == len(b))
+	output = 0
+	for i in range(len(a)):
+		output += (a[i] * b[I])
+	return output
 
 def vect_mat_mul(vect,matrix):
-		assert(len(vect) == len(matrix))
-		output = [0,0,0]
-		
-		for i in range(len(vect)):
-				output[i] = w_sum(vect,matrix[I])
+	assert(len(vect) == len(matrix))
+	output = [0,0,0]
+	
+	for i in range(len(vect)):
+		output[i] = w_sum(vect,matrix[I])
 
-		return output
+	return output
 
 def neural_network(input, weights):
-		pred = vect_mat_mul(input,weights)
-		return pred
+	pred = vect_mat_mul(input,weights)
+	return pred
 
 toes = [8.5, 9.5, 9.9, 9.0]
 wlrec = [0.65,0.8, 0.8, 0.9]
@@ -186,22 +186,22 @@ import numpy as np
 
 # toes % win # fans
 ih_wgt = np.array([
-						[0.1, 0.2, -0.1], # hid[0]
-						[-0.1,0.1, 0.9], # hid[1]
-						[0.1, 0.4, 0.1]]).T # hid[2]
+		[0.1, 0.2, -0.1], # hid[0]
+		[-0.1,0.1, 0.9], # hid[1]
+		[0.1, 0.4, 0.1]]).T # hid[2]
 
 # hid[0] hid[1] hid[2]
 hp_wgt = np.array([
-						[0.3, 1.1, -0.3], # hurt?
-						[0.1, 0.2, 0.0], # win?
-						[0.0, 1.3, 0.1] ]).T # sad?
+		[0.3, 1.1, -0.3], # hurt?
+		[0.1, 0.2, 0.0], # win?
+		[0.0, 1.3, 0.1] ]).T # sad?
 
 weights = [ih_wgt, hp_wgt]
 
 def neural_network(input, weights):
-		hid = input.dot(weights[0])
-		pred = hid.dot(weights[1])
-		return pred
+	hid = input.dot(weights[0])
+	pred = hid.dot(weights[1])
+	return pred
 
 toes = np.array([8.5, 9.5, 9.9, 9.0])
 wlrec = np.array([0.65,0.8, 0.8, 0.9])
