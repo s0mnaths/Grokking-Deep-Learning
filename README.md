@@ -12,6 +12,7 @@ If you are interested in the book, this repo might be useful.
 
 | Chapter      | Name | 
 | ----------- | ----------- |
-| 03 | [Introduction to Neural Prediction : Forward Propagation](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/03%20-%20Forward%20Propagation/03%20-%20Forward%20Propagation.md)        |
-| 04 | [Introduction to Neural Prediction : Gradient Descent](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/04%20-%20Gradient%20Descent/04%20-%20Gradient%20Descent.md)        |
-| 05 | [Learning multiple Weights at a time : Generalizing Gradient Descent](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/05%20-%20Generalizing%20Gradient%20Descent/05%20-%20Generalizing%20Gradient%20Descent.md)        |
+| 03 | [Forward Propagation](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/03%20-%20Forward%20Propagation/03%20-%20Forward%20Propagation.md)        |
+| 04 | [Gradient Descent](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/04%20-%20Gradient%20Descent/04%20-%20Gradient%20Descent.md)        |
+| 05 | [Generalizing Gradient Descent](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/05%20-%20Generalizing%20Gradient%20Descent/05%20-%20Generalizing%20Gradient%20Descent.md)        |
+| 05 | [Introduction to Backpropagation](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/06%20-%20Introduction%20to%20Back%20Propagation/06%20-%20Introduction%20to%20Back%20Propagation.md)        |
