@@ -15,4 +15,5 @@ If you are interested in the book, this repo might be useful.
 | 03 | [Forward Propagation](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/03%20-%20Forward%20Propagation/03%20-%20Forward%20Propagation.md)        |
 | 04 | [Gradient Descent](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/04%20-%20Gradient%20Descent/04%20-%20Gradient%20Descent.md)        |
 | 05 | [Generalizing Gradient Descent](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/05%20-%20Generalizing%20Gradient%20Descent/05%20-%20Generalizing%20Gradient%20Descent.md)        |
-| 05 | [Introduction to Backpropagation](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/06%20-%20Introduction%20to%20Back%20Propagation/06%20-%20Introduction%20to%20Back%20Propagation.md)        |
+| 06 | [Introduction to Backpropagation](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/06%20-%20Introduction%20to%20Back%20Propagation/06%20-%20Introduction%20to%20Back%20Propagation.md)        |
+| 07 | [How to Picture a Neural Network](https://github.com/s0mnaths/Grokking-Deep-Learning/blob/master/07%20-%20How%20to%20Picture%20a%20Neural%20Network/07%20-%20How%20to%20Picture%20a%20Neural%20Network.md)        |
